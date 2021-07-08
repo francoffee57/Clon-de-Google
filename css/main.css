@@ -1,0 +1,52 @@
+body{
+	background-color: #eee;
+	font-family: 'PT Sans', sans-serif;
+}
+/*Header*/
+header{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	background-color: red;
+}
+.nav-main{
+	display: flex;
+	background-color: #888;
+	display: inline-block;
+	width: 300px;
+}
+
+.header-link, .icon-apps, .perfil{
+	display: inline-block;
+}
+
+.link a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #333;
+}
+
+.nav{
+	padding:  4px;
+}
+.link{
+	margin-left: 5px;
+}
+.icon-apps{
+	font-size: 1em;
+	padding: 20px;
+}
+
+.img-perfil{
+	height: 3em;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.perfil{
+	width: 10px;
+	padding: 10px 20px;
+	/*left: 100px;
+	right: auto;
+	position: relative;
+}
