@@ -32,15 +32,19 @@ header{
 	text-decoration: underline;
 }
 
-.icon-apps{
+.icon-apps {
 	font-size: 1.2em;
 	margin: 10px;
 	padding: 10px;
-	height: 2.2em;
-	width: 2.2em;
+	height: 2em;
+	width: 2em;
 	border-radius: 50%;
 	text-align: center;
-	color: #777;
+	color: #999;
+}
+
+.icon-apps:hover{
+	background-color: #eee;
 }
 
 .img-perfil{
@@ -50,9 +54,6 @@ header{
 .img-perfil:hover{
 	box-shadow: 0 0 0px 5px #eee;
 }
-.icon-apps:hover{
-	background-color: #eee;
-}
 
 .perfil{
 	width: 10px;
@@ -61,12 +62,16 @@ header{
 }
 
 /*Main*/
+main,
+.logo{
+	margin-bottom: 2em;
+}
+
 .logo{
 	height: 5.7em;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 2em;
 }
 
 .buscador{
@@ -79,8 +84,9 @@ header{
 	border: 1px solid #ccc;
 	margin-bottom: 2em;
 }
-.buscador:active{
-	box-shadow: 0 0 10px 1px #ccc;
+.buscador:hover{
+	box-shadow: 0 1px 10px 1px #ccc;
+	border: 0;
 }
 
 .buscador-input, .lupa, .microphone{
@@ -102,12 +108,11 @@ header{
 .bottones-buscador{
 	text-align: center;
 }
-.buttom{
+.buttom {
 	background-color: #f8f9fa;
 	font-size: 15px;
 	padding: 10px 15px;
 }
-
 .text-ofrecido{
 	font-size: 13px;
 	text-align: center;
@@ -115,5 +120,18 @@ header{
 .text-ofrecido a{
 	color: blue;
 }
+.buttom:hover{
+	box-shadow: 0 0px 1px 1px #ccc;
+}
 
 
+/*Footer*/
+footer{
+	width: 100%;
+	background-color:#eee;
+}
+
+.links-footer,
+.link-footer{
+	display: flex;
+}
