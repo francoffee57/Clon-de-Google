@@ -13,6 +13,7 @@ header{
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
+	margin-bottom: 10px;
 }
 .nav-main{
 	display: flex;
@@ -34,8 +35,12 @@ header{
 .icon-apps{
 	font-size: 1.2em;
 	margin: 10px;
-	padding: 13px;
+	padding: 10px;
+	height: 2.2em;
+	width: 2.2em;
 	border-radius: 50%;
+	text-align: center;
+	color: #777;
 }
 
 .img-perfil{
@@ -54,3 +59,61 @@ header{
 	margin: 10px 0px;
 	margin-right: 55px;
 }
+
+/*Main*/
+.logo{
+	height: 5.7em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+}
+
+.buscador{
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	width: 36em;
+	height: 45px;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 2em;
+}
+.buscador:active{
+	box-shadow: 0 0 10px 1px #ccc;
+}
+
+.buscador-input, .lupa, .microphone{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.buscador-input{
+	border: 0;
+	width: 80%;
+	height: 95%;
+	margin-top: 2px;
+}
+.microphone, .lupa{
+	margin-top: 10px;
+	color: #999;
+}
+
+.bottones-buscador{
+	text-align: center;
+}
+.buttom{
+	background-color: #f8f9fa;
+	font-size: 15px;
+	padding: 10px 15px;
+}
+
+.text-ofrecido{
+	font-size: 13px;
+	text-align: center;
+}
+.text-ofrecido a{
+	color: blue;
+}
+
+
