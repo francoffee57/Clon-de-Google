@@ -129,9 +129,36 @@ main,
 footer{
 	width: 100%;
 	background-color:#eee;
+	position: absolute;
+	bottom: 0;
 }
-
 .links-footer,
 .link-footer{
+	height: 40px;
 	display: flex;
+}
+.links-footer ul{
+	padding: 4px 0px;
+	padding-left: 23px;
+	margin-top: 0;
+}
+
+.links2{
+	position: absolute;
+	right: 0;
+	margin-right: 30px;
+}
+.links-footer a, .pais{
+	color: #777;
+	font-size: 16px;
+}
+
+.pais{
+	margin-left: 10px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 20px;
+}
+
+.link-footer ul{
+	padding: 2px 20px 2px 0px;
 }
