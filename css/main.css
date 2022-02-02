@@ -7,6 +7,7 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	transition: all 1s;
 }
 /*Header*/
 .header{
@@ -173,28 +174,34 @@ footer{
 }
 .dark footer{
 	background-color: #171717;
+	transition: all 2s;
 }
 .dark .buttom{
 	background-color: #303134;
 	color: #c9c9ca;
+	transition: all 2s;
 }
 .dark .link a{
 	color: #c9c9ca;
+	transition: all 2s;
 }
 .dark .text-ofrecido a{
 	color: #8ab4f8;
 }
 
-
+/* Botón del Dark Mode ---------------- */
 .dark__button{
 	width: 3.5em;
 	height: 1.8em;
 	margin-left: 20px;
-	background-color: aquamarine;
 	border-radius: 30px;
 	display: flex;
 	overflow: hidden;
-	border: 3px solid #c9c9ca;
+	border: 3px solid rgb(151, 151, 151);
+	position: relative;
+}
+.dark .dark__button{
+	border-color: #c9c9ca;
 }
 .dark__button--dark,
 .dark__button--white{
@@ -202,9 +209,29 @@ footer{
 	width: 50%;
 	cursor: pointer;
 }
-.dark__button--dark{
-	background-color: #303134;
-}
+.dark__button--dark,
 .dark__button--white{
+	background-color: rgb(151, 151, 151);
+}
+.dark .dark__button--white,
+.dark .dark__button--dark{
 	background-color: #c0c0c9;
+}
+.dark__button::before{
+	content: '';
+	display: inline-block;
+	background-color: #5a98fc;
+	width: 50%;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	left: auto;
+	transition: all 2s;
+}
+
+.dark .dark__button::before{
+	left: 0;
+	right: auto;
+	background-color: #4285f4;
 }
