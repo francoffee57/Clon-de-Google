@@ -78,7 +78,8 @@ main,
 	display: flex;
 	margin-right: auto;
 	margin-left: auto;
-	width: 36em;
+	max-width: 36em;
+	width: 80%;
 	height: 45px;
 	border-radius: 50px;
 	border: 1px solid #ccc;
@@ -161,4 +162,24 @@ footer{
 
 .link-footer ul{
 	padding: 2px 20px 2px 0px;
+}
+
+/* Dark Mode -------------------------------------------------------*/
+.dark,
+.dark .buscador-input{
+	background-color: #202124;
+	color: #c9c9ca;
+}
+.dark footer{
+	background-color: #171717;
+}
+.dark .buttom{
+	background-color: #303134;
+	color: #c9c9ca;
+}
+.dark .link a{
+	color: #c9c9ca;
+}
+.dark .text-ofrecido a{
+	color: #8ab4f8;
 }
